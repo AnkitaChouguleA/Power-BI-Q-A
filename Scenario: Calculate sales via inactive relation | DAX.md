@@ -36,4 +36,7 @@ In this example, Total Sales would be calculated based on the 'Ship Date' instea
 <img width="1910" height="883" alt="image" src="https://github.com/user-attachments/assets/3306aa6c-4228-4e3a-a01c-56e7515c0cb0" />
 <br></br>
 
+<img width="566" height="413" alt="image" src="https://github.com/user-attachments/assets/8fc31caf-480e-4b37-98b9-19586dbacb07" />
+<br></br>
+
 
