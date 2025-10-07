@@ -3,6 +3,9 @@ There are 2 sheets: sheet 1 and sheet 2
 
 <img width="1919" height="559" alt="Screenshot 2025-10-07 102626" src="https://github.com/user-attachments/assets/fae9f407-d8b7-475c-a27e-53be4065b45a" />
 
+
 <img width="1918" height="581" alt="image" src="https://github.com/user-attachments/assets/aa584ef0-4c7d-4d1c-8e60-8168f7aff756" />
 
 We have 6 columns same in both sheets. There are some common records in both sheets. Create a new table which will contain those records which are only in sheet 1.
+
+We can join this 2 sheets. 
