@@ -94,8 +94,9 @@ Go to **Model View** and connect:
 * **Active Relationship** → `Calendar[Date]` → `Sales[OrderDate]` (solid line)
 * **Inactive Relationship** → `Calendar[Date]` → `Sales[StockDate]` (dotted line)
 
-✅ Active relationship = solid line
-❌ Inactive relationship = dotted line
+✅ Active: Calendar[Date] — Sales[OrderDate]
+
+❌ Inactive: Calendar[Date] — Sales[StockDate]
 
 ---
 
@@ -153,16 +154,39 @@ You’ll see that:
 
 ---
 
-### 🧠 Key Learning
+### ✅ Verification Tip
 
-* Power BI allows only **one active relationship** between two tables.
-* `USERELATIONSHIP()` **temporarily activates** another (inactive) one for specific calculations.
+To confirm the inactive relationship is working:
+
+1. Temporarily deactivate the **active relationship** (`OrderDate`) in Model View
+2. Refresh your visuals
+3. Only `[Total Revenue by Stock Date]` should return values
+
+This confirms that `USERELATIONSHIP()` successfully used the inactive path.
 
 ---
 
-### 📽️ Reference
+## 🧠 Key Learnings
 
-🎥 [YouTube Video: Scenario - Calculate sales via inactive relation | DAX | Power BI Interview 🔥](https://www.youtube.com/watch?v=JBYQKksIAKc)
+* Power BI allows **only one active relationship** between two tables.
+* Use `USERELATIONSHIP()` to **temporarily activate** another (inactive) one.
+* It’s essential for **role-playing dimension** scenarios like:
+
+  * Order Date vs. Ship Date
+  * Invoice Date vs. Payment Date
+  * Created Date vs. Closed Date
+
+---
+
+## 📽️ Reference
+
+🎥 [YouTube Video: Scenario - Calculate Sales via Inactive Relation | DAX | Power BI Interview 🔥](https://www.youtube.com/watch?v=JBYQKksIAKc)
+
 📺 Channel: *LearnWidGiggs*
 
+---
 
+### ✍️ Author’s Note
+
+This walkthrough helps you practice the `USERELATIONSHIP()` function without needing the original dataset.
+It’s a must-know DAX concept for Power BI developers, especially for interview and project scenarios!
