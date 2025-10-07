@@ -14,6 +14,7 @@ option 1: We can join this 2 sheets using Merge query as new option in power que
  <img width="1919" height="665" alt="image" src="https://github.com/user-attachments/assets/357af504-6fdf-4028-97f7-5013a690bafd" />
 <br></br>
 
-Option 2: by using dax
-
-
+Option 2: by using dax. Click new table and write DAX query.
+<br></br>
+<img width="1094" height="463" alt="image" src="https://github.com/user-attachments/assets/b955c25d-4c4a-47f2-bafd-3ece587ac7c9" />
+<br></br>
