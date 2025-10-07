@@ -7,7 +7,13 @@ There are 2 sheets: sheet 1 and sheet 2
 
 We have 6 columns same in both sheets. There are some common records in both sheets. Create a new table which will contain those records which are only in sheet 1.
 
-We can join this 2 sheets using Merge query as new option in power query
+option 1: We can join this 2 sheets using Merge query as new option in power query
  <br></br>
 <img width="1889" height="965" alt="image" src="https://github.com/user-attachments/assets/f67e5cb8-a2d5-4ce6-acac-f369755a7f28" />
  <br></br>
+ <img width="1919" height="665" alt="image" src="https://github.com/user-attachments/assets/357af504-6fdf-4028-97f7-5013a690bafd" />
+<br></br>
+
+Option 2: by using dax
+
+
